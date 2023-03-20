@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: #000;
+    background-image: radial-gradient(ellipse at top, #673333 0.0%, #6e3131 11.1%, #673030 22.2%, #602f2f 33.3%, #592d2d 44.4%, #512c2c 55.6%, #4a2a2a 66.7%, #432929 77.8%, #3d2828 88.9%, #362626 100.0%);
+    height: 100vh;
+    overflow: hidden;
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+#c{
+    display: block;
+    touch-action: none;
+    transform: translateZ(0);
+
+}
+
+.pause-btn > div::after, .pause-btn > div::before{
+    content: '';
+    display: block;
+    width: 34%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+}
